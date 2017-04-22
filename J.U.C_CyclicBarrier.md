@@ -4,6 +4,7 @@
 '''
 
   import java.util.concurrent.CyclicBarrier;
+  
   import java.util.concurrent.BrokenBarrierException;
  
   public class CyclicBarrierTest1 {
@@ -45,14 +46,23 @@
 '''
 
  Thread-1 wait for CyclicBarrier.
+ 
  Thread-2 wait for CyclicBarrier.
+ 
  Thread-3 wait for CyclicBarrier.
+ 
  Thread-4 wait for CyclicBarrier.
+ 
  Thread-0 wait for CyclicBarrier.
+ 
  Thread-0 continued.
+ 
  Thread-4 continued.
+ 
  Thread-2 continued.
+ 
  Thread-3 continued.
+ 
  Thread-1 continued.
  
 '''
