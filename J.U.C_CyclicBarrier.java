@@ -10,6 +10,7 @@ public class CyclicBarrierTest1 {
      private static CyclicBarrier cb;
      public static void main(String[] args) {
  
+         //使用了第一种构造方法
          cb = new CyclicBarrier(SIZE);
  
          // 新建5个任务
