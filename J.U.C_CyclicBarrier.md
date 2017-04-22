@@ -2,6 +2,7 @@
 新建5个线程，这5个线程达到一定的条件时，它们才继续往后运行
 
 '''
+
   import java.util.concurrent.CyclicBarrier;
   import java.util.concurrent.BrokenBarrierException;
  
@@ -36,9 +37,13 @@
          }
      }
  }
+ 
 '''
+
 运行结果：
+
 '''
+
  Thread-1 wait for CyclicBarrier.
  Thread-2 wait for CyclicBarrier.
  Thread-3 wait for CyclicBarrier.
@@ -49,4 +54,5 @@
  Thread-2 continued.
  Thread-3 continued.
  Thread-1 continued.
+ 
 '''
