@@ -2,10 +2,10 @@
 新建5个线程，这5个线程达到一定的条件时，它们才继续往后运行
 
 '''
-import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.BrokenBarrierException;
+  import java.util.concurrent.CyclicBarrier;
+  import java.util.concurrent.BrokenBarrierException;
  
-public class CyclicBarrierTest1 {
+  public class CyclicBarrierTest1 {
  
      private static int SIZE = 5;
      private static CyclicBarrier cb;
@@ -39,14 +39,14 @@ public class CyclicBarrierTest1 {
 '''
 运行结果：
 '''
-Thread-1 wait for CyclicBarrier.
-Thread-2 wait for CyclicBarrier.
-Thread-3 wait for CyclicBarrier.
-Thread-4 wait for CyclicBarrier.
-Thread-0 wait for CyclicBarrier.
-Thread-0 continued.
-Thread-4 continued.
-Thread-2 continued.
-Thread-3 continued.
-Thread-1 continued.
+ Thread-1 wait for CyclicBarrier.
+ Thread-2 wait for CyclicBarrier.
+ Thread-3 wait for CyclicBarrier.
+ Thread-4 wait for CyclicBarrier.
+ Thread-0 wait for CyclicBarrier.
+ Thread-0 continued.
+ Thread-4 continued.
+ Thread-2 continued.
+ Thread-3 continued.
+ Thread-1 continued.
 '''
