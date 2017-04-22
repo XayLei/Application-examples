@@ -1,4 +1,4 @@
-//CyclicBarrier
+//参考：http://www.cnblogs.com/skywang12345/p/3533995.html
 //新建5个线程，这5个线程达到一定的条件时，它们才继续往后运行
 
 import java.util.concurrent.CyclicBarrier;  
